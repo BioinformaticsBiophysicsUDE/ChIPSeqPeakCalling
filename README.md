@@ -36,5 +36,5 @@ input is a vector with 2 or 3 bed files and the name of the output file
 
 source file in R and call the function
 
-getIntersectVectNoID( <vector with bed files> , < save name>)
+getIntersectVectNoID( <vector with bed files> , <save name>)
 
