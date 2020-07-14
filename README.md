@@ -4,7 +4,9 @@
 
 http://hiddendomains.sourceforge.net/
 
-## sliding window domain merging
+## Sliding window domain merging
+
+domain.merger.function.R
 
 Merging of called peaks in close proximity using a sliding window approach. The input is the *.analysis.bed file output from hiddenDomains. The function uses three paramter bins, windows and treshold which have different values for broad an narrow histone modifications.
 
@@ -18,6 +20,21 @@ for narrow histone modifications the settings are: bins = 200, window = 1000 and
 
 for broad histone modifications the settings are: bins = 800, window = 5600, treshold = 4000
 
-call the function in R 
+source file in R and call the function with
 
 domainMergerSeq(<analysis.bed file>, <broad or narrow>)
+
+
+## Calulate intersect peak file from biological replicates
+
+getPeakIntersect.R
+
+input are the window merged peak bed files
+
+input is a vector with 2 or 3 bed files and the name of the output file
+
+
+source file in R and call the function
+
+getIntersectVectNoID(<vector with bed files>, < save name>)
+
