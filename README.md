@@ -22,7 +22,7 @@ for broad histone modifications the settings are: bins = 800, window = 5600, tre
 
 source file in R and call the function with
 
-domainMergerSeq(<analysis.bed file>, <broad or narrow>)
+domainMergerSeq( <analysis.bed file> , <broad or narrow>)
 
 
 ## Calulate intersect peak file from biological replicates
@@ -36,5 +36,5 @@ input is a vector with 2 or 3 bed files and the name of the output file
 
 source file in R and call the function
 
-getIntersectVectNoID(<vector with bed files>, < save name>)
+getIntersectVectNoID( <vector with bed files> , < save name>)
 
